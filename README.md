@@ -106,11 +106,3 @@ DATABASE_URL=postgresql://username:password@localhost/db_name
 
 ```
 
-### Frontend (`frontend/.env`)
-```
-REACT_APP_API_URL=http://localhost:5000
-```
-
-## API Integration
-The frontend communicates with the backend API for authentication and photo management. Update `REACT_APP_API_URL` in your `.env` file to match your backend server address.
-
