@@ -1,0 +1,53 @@
+.upload-container {
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: sans-serif;
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.upload-box {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.upload-box input {
+  margin-bottom: 10px;
+}
+
+.file-list {
+  text-align: left;
+}
+
+.file-item {
+  background: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  background: #eee;
+  height: 6px;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: #3b82f6;
+  transition: width 0.3s;
+}
+
+.status {
+  font-size: 12px;
+  color: #555;
+}

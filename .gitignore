@@ -1,0 +1,113 @@
+# Global ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+*.env
+.env.*
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*.swo
+*.tmp
+*.orig
+*.lock
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+/dist/
+/build/
+/.next/
+/.vercel/
+
+# React
+frontend/src/assets/*.jpg
+frontend/src/assets/*.jpeg
+frontend/src/assets/*.png
+frontend/src/assets/*.svg
+frontend/src/assets/*.webp
+
+# Coverage
+coverage/
+*.lcov
+
+# VS Code
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Uploads
+backend/uploads/
+
+# Misc
+frontend/public/*.log
+
+# Ignore environment and secrets
+backend/.env
+frontend/.env
+
+# Ignore package-lock and yarn lock
+package-lock.json
+yarn.lock
+
+# Ignore test output
+junit.xml
+
+# Ignore frontend build
+frontend/build/
+
+# Ignore backend build
+backend/__pycache__/
+
+# Ignore uploads
+backend/uploads/
+
+# Ignore compiled files
+*.exe
+*.out
+*.class
+
+# Ignore Python virtual environments
+venv/
+.env/
+
+# Ignore IDE files
+.idea/
+*.iml
+
+# Ignore Mac system files
+*.DS_Store
+
+# Ignore Windows system files
+*.Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore temp files
+*.tmp
+
+# Ignore backup files
+*.bak
+
+# Ignore test coverage
+.coverage
+
+# Ignore pip cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore frontend test snapshots
+frontend/src/__tests__/*.snap
+frontend/src/views/__tests__/*.snap

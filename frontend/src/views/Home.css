@@ -1,0 +1,140 @@
+/* ===== GLOBAL STYLES ===== */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  color: #111;
+  background-image: url('/src/components/background.jpg'); /* update path if needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Brighten background */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: -1;
+}
+
+/* ===== HEADER ===== */
+header {
+  width: 100%;
+  padding: 20px 40px;
+  background: rgba(227, 83, 83, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+/* ===== MAIN SECTION ===== */
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 20px 80px; /* space for fixed header/footer */
+  text-align: center;
+}
+
+main h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* ===== OPTIONAL: SplashCursor wrapper ===== */
+.splash-wrapper {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #000;
+}
+
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px; /* space between buttons */
+}
+
+.upload-btn {
+  margin-right: 10px; /* optional for spacing */
+}
+
+
+/* ===== FOOTER ===== */
+footer {
+  width: 100%;
+  padding: 20px 40px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  text-align: center;
+  color: #222;
+  font-size: 0.9rem;
+  border-top: 1px solid #ddd;
+  z-index: 100;
+}
+
+footer a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===== RESPONSIVE STYLES ===== */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  main h2 {
+    font-size: 2.2rem;
+  }
+
+  main p {
+    font-size: 1rem;
+  }
+
+  .splash-wrapper {
+    font-size: 1.2rem;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 15px 20px;
+  }
+}
