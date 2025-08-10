@@ -2,6 +2,9 @@
 
 A full-stack application for securely uploading, storing, and managing photos. The project consists of a React frontend and a Python backend, with support for authentication, cloud storage, and a modern user experience.
 
+<img width="724" height="413" alt="image" src="https://github.com/user-attachments/assets/b7eedc3e-7d6f-4b56-924f-073553ca3ac2" />
+
+
 ## Table of Contents
 - [Features](#features)
 - [Project Structure](#project-structure)
